@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gold Rush</title>
+      
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/f339a3a0a6.js" crossorigin="anonymous"></script>
+      </head>
+
+<body>
+
+    <div id="main">
+        
+
+    </div>
+
+    <div id="footer">
+        
+        <div id="scores">
+            <span id="player1Score"></span>
+            <span id="player2Score"></span>
+        </div>
+
+        
+        <div id="new-game">   
+            <input type="number" id="rowsInput" placeholder="Enter Rows">
+            <input type="number" id="colsInput" placeholder="Enter Columns">
+            <button id="start" onclick="start()">
+                    START
+            </button>
+
+        </div>
+
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="Stack.js"></script>
+    <script src="Matrix.js"></script>
+    <script src="GoldRushMat.js"></script>
+    <script src="Renderer.js"></script>
+    <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

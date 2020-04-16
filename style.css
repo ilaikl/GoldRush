@@ -1,0 +1,78 @@
+
+
+body{
+    display: grid;
+    height:100vh;
+    grid-template-rows: 17fr 3fr;
+    
+}
+
+#main{
+    display: grid;
+
+    background-color: #eee8e4;
+justify-content: center;
+align-content: center;
+}
+#main i{
+    display: grid;
+justify-content: center;
+align-content: center;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+#footer{
+    
+    font-family: 'Press Start 2P', cursive;
+    display: grid;
+    background-color: #d3c9c2;
+    grid-template-rows:1fr 1fr ;
+}
+#scores{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+}
+#new-game{
+    display: grid;
+    grid-template-columns:1fr 1fr 5fr ;
+}
+
+#start{
+    display: grid;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    align-content: center;
+}
+
+.player1{
+    color: blue;
+}
+.player2{
+    color: red;
+}
+
+.fa-coins{
+    color: rgb(236, 202, 90);
+}
+
+.obstacle{
+    background-color: brown;
+}
+
+#player1Score{
+    display: grid;
+justify-content: start;
+align-content: center;
+}
+
+#player2Score{
+    display: grid;
+justify-content: end;
+align-content: center;
+}
