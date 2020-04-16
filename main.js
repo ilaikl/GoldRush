@@ -1,4 +1,3 @@
-// let socket = io();
 let board
 let renderer = new Renderer()
 $(document).keypress(function (e) {
@@ -35,7 +34,6 @@ $(document).keypress(function (e) {
             break;
     }
     if (changed){
-        // socket.emit('playermoved', e.which);
         renderer.renderBoard(board.matrix,board.player1Score,board.player2Score)
         if(board.player1Score+board.player2Score==board.numOfCoins)
         {
